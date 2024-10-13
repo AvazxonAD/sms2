@@ -107,7 +107,7 @@ const Send: React.FC = () => {
       };
 
       const response = await fetch(
-        "http://147.45.107.174:4000/sms/excel",
+        "https://proxies.uz/sms/excel",
         requestOptions
       );
       const result = await response.json();
